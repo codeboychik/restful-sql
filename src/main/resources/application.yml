@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/restful_sql
+    username: restful
+    password: restful
+    driver-class-name: org.postgresql.Driver
+
+app:
+  db:
+    schema: public
